@@ -13,8 +13,32 @@ h1 {
 }
 
 footer {
+  position: absolute;
+  text-align: center;
   color: #dbedf3;
   font-family: sans-serif;
+  bottom: 45px;
+  width: 100%;
+}
+
+h2 a{
+  text-decoration: none;
+  color: #dbedf3;
+  text-shadow: 3px 0 #da0463;
+}
+
+.social-icon {
+  display: inline-flex;
+  list-style: none;
+  margin: 0px;
+  padding-left: 0;
+}
+
+.fa {
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 20px;
+  color: #dbedf3;
 }
 
 .w {
